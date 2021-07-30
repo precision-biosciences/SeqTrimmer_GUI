@@ -1,0 +1,11 @@
+For pyinstaller:
+    Use python 3.7 located in C:\Users\jlape\AppData\Local\Programs\Python\Python37\
+    Open command line in this folder
+
+    Command line:
+    pyinstaller --onefile --paths C:\Users\jlape\AppData\Local\Programs\Python\Python37\Lib\site-packages\PyQt5\Qt\bin "D:\CodingProjects\jkl_misc\SeqTrimmerJKL\SeqTrimmerJKL.py"
+        still has QT error
+    pyinstaller "D:\CodingProjects\jkl_misc\SeqTrimmerJKL\SeqTrimmerJKL.py"
+        opens terminal but crashes
+
+    Using the first command line works but must downgrade to PyQt5==5.12.2
